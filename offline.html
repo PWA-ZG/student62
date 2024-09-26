@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projekt 5</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="manifest" href="manifest.json" />
+  </head>
+  <body>
+    <header>
+      <h1>Projekt 5 iz predmeta Napredni razvoj programske potpore za web</h1>
+    </header>
+
+    <div class="main-container">
+      <div class="section">
+        <h3>Dio o glazbenim tonovima i ljestvicama</h3>
+        <div class="music-section">
+          <div class="music-text">
+            Kako ljudi u svom jeziku razlikuju slova koja čine abecedu slova,
+            tako se u glazbi sporazumijeva glazbenom abecedom. Nju čine glazbene
+            note, predznaci, ključevi i tako dalje. To je univerzalni jezik
+            kojim se glazbenici širom svijeta razumiju.
+          </div>
+          <br />
+
+          <div class="music-text">
+            Glazbeni tonovi grupiraju se u glazbene ljestvice. One su svojevrsna
+            gramatika i određuju pravila po kojima se tonovi slažu i koriste
+            ovisno o kontekstu u kojem se nalaze, odnosno ovisno o glazbenoj
+            ljestvici koja se koristi. Osnovna podjela glazbenih ljestvica je na
+            durske i molske, gdje svaka durska ljestvica ima svoju pripadajuću
+            molsku ljestvicu s kojom dijeli predznake. Osnovna glazbena
+            ljestvica je c-dur (C-major), a njoj pripadajuća molska ljestvica je
+            a-mol (a-minor).
+          </div>
+          <br />
+          <div class="music-text">
+            Glazbeni tonovi zapisuju se notama u notno crtovlje gdje svaki ton
+            ima svoju poziciju. Note se razlikuju po trajanju pa tako
+            razlikujemo četvrtinke, osminke, cijele note i druge. Kako traju
+            note tako traju i pauze pa razlikujemo cjelu pauzu, polovinsku
+            pauzu, četvrtinsku pauzu i druge. Njihovo trajanje ovisi o glazbenoj
+            mjeri koja se uvijek nalazi na početku notnog zapisa skladbe.
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <h3>Dio o glazbenim instrumentima</h3>
+        <div class="music-section">
+          <div class="music-text">
+            Poveznica glazbe i ljudskog govora može se naći i u načinu
+            izgovaranja glasova, odnosno načina sviranja tonova. Ljudi
+            komuniciraju glasom, odnosno izgovaraju glasove. Naravno da ih i
+            zapisuju, ali pretežno koriste glasove. U glazbi, ekvivalent
+            ljudskom izgovaranju glasova je sviranje tonova instrumentima.
+          </div>
+          <br />
+          <div class="music-text">
+            Instrumenti su sredstva pomoću kojih se svira glazba. Osnovna je
+            podjela na <b>puhačke</b>, <b>žičane</b>, <b>udaraljke</b> te
+            <b>glazbala s tipkama</b>.
+          </div>
+          <br />
+          <div class="music-text">
+            Kod puhačkih instrumenata zvuk se proizvodi zrakom iz čovjekovih
+            pluća, taj zrak onda struji instrumentom i proizvodi zvuk. Neki od
+            primjera su truba, flauta, trombon...
+          </div>
+          <br />
+          <div class="music-text">
+            Na žičanim se instrumentima zvuk proizvodi titranjem žice. Primjeri
+            instrumenata su gitara, violončelo, violina...
+          </div>
+          <br>
+          </div>
+          <br />
+          <div class="music-text">
+            Glazbenik koji svira udaraljke zvuk proizvodi udaranjem o opnu
+            instrumenta. Primjeri su timpani, ksilofon...
+          </div>
+          <br />
+          <div class="music-text">
+            Kod instrumenata s tipkama zvuk se proizviodi pritiskom na tipku pa
+            onda ili mali bat udara o žicu kao kod klavira ili zrak struji
+            instrumentom pa se tako proizvodi zvuk kao kod harmonike.
+          </div>
+          <br>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      navigator.serviceWorker
+        .register("./sw.js")
+        .then((reg) => console.log("SW registriran", reg))
+        .catch((err) => console.error("Greška", err));
+    </script>
+    <script src="server.js"></script>
+  </body>
+</html>

@@ -1,0 +1,90 @@
+{
+  "name": "Projekt 5 iz predmeta Napredni razvoj programske potpore za web",
+  "short_name": "Projekt 5 PWA",
+  "description": "Projekt 5",
+  "display": "fullscreen",
+  "theme_color": "red",
+  "background_color": "#DDD",
+  "start_url": "/index.html",
+  "scope": ".",
+  "orientation": "portrait-primary",
+  "dir": "ltr",
+  "lang": "en-US",
+  "prefer_related_applications": true,
+  "permissions": ["microphone"],
+  "related_applications": [
+    {
+      "platform": "webapp",
+      "url": "https://edgar.fer.hr",
+      "id": "hr.fer.edgar"
+    }
+  ],
+  "icons": [
+    {
+      "src": "assets/img/music_icon.png",
+      "sizes": "144x144",
+      "form_factor": "any"
+    },
+    {
+      "src": "assets/img/music_icon_71.png",
+      "sizes": "71x71"
+    },
+    {
+      "src": "assets/img/music_icon_360_640.png",
+      "sizes": "360x640",
+      "form_factor": "handset"
+    },
+    {
+      "src": "assets/img/music_listen.jpg",
+      "sizes": "144x144"
+    },
+    {
+      "src": "assets/img/music_listen_71.jpg",
+      "sizes": "71x71"
+    },
+    {
+      "src": "assets/img/glazba1_71.png",
+      "sizes": "71x71"
+    },
+    {
+      "src": "assets/img/glazba1_140.png",
+      "sizes": "140x140"
+    },
+    {
+      "src": "assets/img/violinski_kljuc_140.jpg",
+      "sizes": "140x140"
+    },
+    {
+      "src": "assets/img/bass_kljuc_140.jpg",
+      "sizes": "140x140"
+    },
+    {
+      "src": "assets/img/kvintni_krug_200.png",
+      "sizes": "200x200"
+    },
+    {
+      "src": "assets/img/note1_280.jpg",
+      "sizes": "280x280"
+    },
+    {
+      "src": "assets/img/note_pauze_240.jpg",
+      "sizes": "240x240"
+    },
+    {
+      "src": "assets/img/puhacki_240.png",
+      "sizes": "240x240"
+    },
+    {
+      "src": "assets/img/zicani_240.jpg",
+      "sizes": "240x240"
+    },
+    {
+      "src": "assets/img/udaraljke_240.png",
+      "sizes": "240x240"
+    },
+    {
+      "src": "assets/img/tipke_240.jpg",
+      "sizes": "240x240"
+    }
+  ]
+}
